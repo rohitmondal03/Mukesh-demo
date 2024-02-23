@@ -17,6 +17,12 @@ a {
   height: 10rem;
 }
 
+.separator-div {
+  background: rgb(227, 227, 227);
+  width: 2px;
+  height: 5rem;
+}
+
 /* NAVBAR */
 .navbar {
   padding: 1.5rem 5rem;
@@ -131,10 +137,31 @@ a {
   font-size: 1rem;
 }
 
+.home > .left-section > .small-info-section {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+}
+
+.home > .left-section > .small-info-section > .used-services-section > div > img {
+  height: 2.5rem;
+  border-radius: 100%;
+  margin-left: -.5rem;
+}
+
+.home > .left-section > .small-info-section > .faq-section > h1 {
+  color: var(--primary-color);
+}
+
+.home > .left-section > .small-info-section div p {
+  color: gray;
+}
+
 .home > .right-section img {
   height: 25rem;
 }
-
 
 /* LOAN SECTION */
 .loan-section {

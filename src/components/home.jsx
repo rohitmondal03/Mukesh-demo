@@ -41,6 +41,33 @@ export default function HomePage() {
           <button className='get-started-btn'>
             Get Started Now <MoveRight />
           </button>
+
+
+          <div className='small-info-section'>
+            <div className='active-users-section'>
+              <h1>500k+</h1>
+              <p>Active Users</p>
+            </div>
+
+            <div className='separator-div' />
+
+            <div className='used-services-section'>
+              <div>
+                <img src="https://avatars.githubusercontent.com/u/124599?v=4" />
+                <img src="https://avatars.githubusercontent.com/u/107113353?v=4" />
+                <img src="https://avatars.githubusercontent.com/u/124599?v=4" />
+                <img src="https://avatars.githubusercontent.com/u/107113353?v=4" />
+              </div>
+              <p>Used our services</p>
+            </div>
+
+            <div className='separator-div' />
+
+            <div className='faq-section'>
+              <h1>FAQs <MoveRight className='ml-3' /></h1>
+              <p>Get Answers Here!</p>
+            </div>
+          </div>
         </div>
 
         <div className='right-section'>
